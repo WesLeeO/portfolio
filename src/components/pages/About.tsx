@@ -9,6 +9,7 @@ export const About = () => {
             Next semester, I will continue my studies at ETH, specializing in Data Science
             with a focus on Machine Learning and Artificial Intelligence.</p>   
         <h2> Documents</h2>
+        
         <a href='public/results.pdf' target="_blank">Bachelor transcripts</a> 
             
     </section>
