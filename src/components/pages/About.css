@@ -3,7 +3,18 @@ h1{
     font-size: large;
 }
 
+h2{
+    padding-left: 0.5cm;
+    font-size: large;
+}
+
 p {
     font-family:Arial, Helvetica, sans-serif;
     padding-left: 1cm;
+}
+
+section a {
+    font-family:Arial, Helvetica, sans-serif;
+    padding-left: 1cm;
+    color: #3579b1;
 }

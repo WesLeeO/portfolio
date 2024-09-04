@@ -7,8 +7,10 @@ export const About = () => {
         <p>I was born in Paris, France, in 2003 and have always had a strong interest for mathematics and computer science. 
             In 2024, I earned my bachelor's degree in Computer Science from EPFL. 
             Next semester, I will continue my studies at ETH, specializing in Data Science
-            with a focus on Machine Learning and Artificial Intelligence.</p>
-
-   
+            with a focus on Machine Learning and Artificial Intelligence.</p>   
+        <h2> Documents</h2>
+        <a href='public/results.pdf' target="_blank">Bachelor transcripts</a> 
+            
     </section>
+   
 };

@@ -20,13 +20,13 @@ export const NavBar = () => {
       </div>
       <ul className={menuOpen ? "open" : ""}>
         <li>
-          <NavLink to="/about">About me</NavLink>
+          <NavLink to="/portfolio/about">About me</NavLink>
         </li>
         <li>
-          <NavLink to="/contact">Contact</NavLink>
+          <NavLink to="/portfolio/contact">Contact</NavLink>
         </li>
         <li>
-          <NavLink to="/projects">Projects</NavLink>
+          <NavLink to="/portfolio/projects">Projects</NavLink>
         </li>
         <li>
           <a href="https://www.linkedin.com/in/wesley-nana-davies-57116a287/" target="_blank" rel="noopener noreferrer">
