@@ -1,5 +1,5 @@
 import './App.css'
-import { Route, Routes, BrowserRouter as Router} from 'react-router-dom'
+import { Route, Routes, HashRouter as Router} from 'react-router-dom'
 import{ NavBar } from './NavBar'
 import { About } from './components/pages/About'
 import { Contact } from './components/pages/Contact'
@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <Router>      
-        <NavBar />
+        <NavBar/>
           <Routes>
             <Route path="/portfolio/about" element={<About />} />
             <Route path="/portfolio/contact" element={<Contact />} />
