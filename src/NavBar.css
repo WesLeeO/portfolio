@@ -14,7 +14,6 @@ nav {
     justify-content: space-between;
     align-items: center;
     background-color: #8d99b5;
-    color: white;
     position: sticky;
     top: 0;
     width: 100vw;
@@ -50,26 +49,12 @@ nav ul li a {
 
 nav ul li a:not(.active):hover {
     background-color:#dadce2 ;
+    color: black;
 }
 
-nav .menu {
-    display: none;
-    position: absolute;
-    top: 0.75rem;
-    right: 0.5rem;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 2.25rem;
-    height: 2rem;
+nav ul li a:is(.active):hover{
+    color: black;
 }
-
-nav .menu span {
-    height: 0.4rem;
-    width: 100%;
-    background-color: #fff;
-    border-radius: 0.2rem;
-}
-
 
 @media (max-width: 480px) {
     nav .menu {
